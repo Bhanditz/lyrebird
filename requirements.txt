@@ -1,5 +1,5 @@
 flask
-mitmproxy==4.0.4
+mitmproxy==8.0.0
 genson==0.2.1
 requests==2.13.0
 fire==0.1.0
@@ -11,3 +11,5 @@ pytest
 portpicker
 colorama
 packaging
+cryptography>=42.0.8 # not directly required, pinned by Snyk to avoid a vulnerability
+tornado>=6.4.1 # not directly required, pinned by Snyk to avoid a vulnerability
